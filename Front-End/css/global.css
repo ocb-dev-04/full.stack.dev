@@ -8,10 +8,21 @@
 .center{
     width: 80%;
     max-width: 1000px;
+    display: flex;
 }
 
-header, section, footer{
+header, footer{
     width: 100%;
     display: flex;
     justify-content: center;
+
+    position: absolute;
+}
+
+#between{
+    justify-content: space-between;
+}
+
+#around{
+    justify-content: space-around;
 }
